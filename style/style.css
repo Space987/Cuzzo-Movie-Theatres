@@ -1,0 +1,434 @@
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+body {
+    background: black;
+    font-family: arial;
+}
+
+section {
+    color: white;
+}
+
+p {
+    font-size: 14px;
+    color: white;
+}
+
+#currentpage {
+    background-color: grey;
+}
+
+nav {
+    padding: 2px;
+    background-color: red;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10 60px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul>li {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+/* -------------------------------------------------- This is for ordered list ---------------------------------------*/
+
+body ol {
+    color: white;
+    border-style: solid;
+}
+
+body ol>li {
+    border-style: dashed;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: upper-roman;
+}
+
+body ol>li:hover {
+    background-color: red;
+    border-style: dashed;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: upper-roman;
+}
+
+
+/* ------------------------------------------------ This is for unordered list ----------------------------------*/
+
+body ul {
+    color: grey;
+    border-style: dotted;
+}
+
+body ul li {
+    border-style: double;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: .5;
+}
+
+body ul li img {
+    display: none;
+}
+
+body ul li:hover img {
+    display: block;
+}
+
+
+/* -------------------------------------------------- This is for the tables -------------------------------------------*/
+
+#container caption {
+    font-size: 30px;
+    font-style: arial;
+}
+
+#container table {
+    color: white;
+    border-style: solid;
+}
+
+#container th {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(156, 0, 0);
+    ;
+    text-align: center;
+    border-style: dotted;
+    border-collapse: collapse;
+}
+
+#container td {
+    text-align: center;
+    border-style: dotted;
+    border-collapse: collapse;
+}
+
+#container tfoot {
+    color: rgb(156, 0, 0);
+    font-size: 17px;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 1;
+}
+
+#container tr:nth-child(even) {
+    color: rgb(192, 64, 64)
+}
+
+#container tr:hover {
+    background-color: grey;
+    color: black;
+}
+
+#container td.open:hover {
+    color: rgb(23, 206, 23);
+}
+
+#container td.closed:hover {
+    color: red;
+}
+
+
+/* -------------------------------------------------- This is for the menu links --------------------------------------------*/
+
+a:link {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    justify-content: center;
+    font: 14px Arial, sans-serif;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+a:visited {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font: 14px Arial, sans-serif;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: red;
+    font-size: 12px;
+    font-family: Lucida Handwriting;
+    background-color: black;
+    border-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:active {
+    color: red;
+    font-size: 14px;
+    font-family: Lucida Handwriting;
+    text-decoration: none;
+    background-color: black;
+    border-color: red;
+    border-radius: 5px;
+}
+
+
+/* ------------------------------------------------------- This is for images list ----------------------------------*/
+
+.myImag1 {
+    display: flex;
+    margin: 0 5%;
+}
+
+.imagRow1 {
+    display: flex;
+    margin: 0 0 0px 300px;
+}
+
+.imagRow2 {
+    display: flex;
+    margin: 0 0px -700px -590px;
+}
+
+figure {
+    display: block;
+    margin: auto;
+    padding: 10px 0px;
+    border: solid black 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/*----------------------------------------------------- This is for the topic html file -------------------------------------*/
+
+.topics p {
+    line-height: 300%;
+}
+
+.topics p::selection {
+    background-color: rgb(212, 212, 25);
+}
+
+.topics h1 p::first-line {
+    text-transform: capitalize;
+}
+
+.topics h1 {
+    font-size: 39px;
+    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 5px 5px red;
+}
+
+.topics h1>p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topics h2 {
+    font-size: 40px;
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 5px 5px rgb(202, 231, 97);
+}
+
+.topics h2>p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topics h2>p::first-letter {
+    text-transform: capitalize;
+    font-size: 300%;
+}
+
+.topics h3 {
+    font-size: 40px;
+    color: crimson;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 5px 5px rgb(255, 255, 255);
+}
+
+.topics h3>p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.topics h3>p::first-letter {
+    text-transform: capitalize;
+    font-size: 300%;
+}
+
+.topics h4 {
+    font-size: 40px;
+    color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 5px 5px rgb(0, 165, 241);
+}
+
+.topics h4>p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.topics h4>p::first-letter {
+    text-transform: capitalize;
+    font-size: 300%;
+}
+
+
+/*-------------------------------------------------------- This is for forms html ----------------------------------------*/
+
+#containers {
+    color: aliceblue;
+    font-size: 14px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#containers h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#containers p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.poop {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    width: 99%;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 10%;
+    background-color: rgb(30, 133, 207);
+    color: aliceblue;
+}
+
+.field1 {
+    border-top: 0px;
+    border-left: 0ch;
+    border-right: 0ch;
+}
+
+.field2 {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.field3 {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.info label {
+    color: rgb(255, 255, 255);
+}
+
+.info input {
+    width: 99%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.half input {
+    width: 47%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.third input {
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.comment textarea {
+    width: 99%;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.location label {
+    color: aliceblue;
+}
+
+.times label {
+    color: aliceblue;
+}
+
+.contact label {
+    color: aliceblue;
+}
+
+.address label {
+    color: aliceblue;
+}
+
+.button1 button {
+    background-color: rgb(21, 115, 246);
+    color: black;
+    width: 10%;
+    padding: 10px;
+}
+
+.button1 input {
+    background-color: red;
+    width: 10%;
+    padding: 10px;
+}
+
+
+/* This is for footer*/
+
+footer {
+    font-size: 14px;
+    color: white;
+    background-color: red;
+    text-align: center;
+}

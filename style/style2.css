@@ -1,0 +1,120 @@
+/*-----------------------------------------------------------New Part-----------------------------------------------------------------------------------------*/
+
+html {
+    background-color: black;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#currentPage {
+    background-color: black
+}
+
+.display {
+    text-align: left;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: rgb(225, 69, 69);
+}
+
+.fa-book {
+    color: rgb(225, 69, 69);
+}
+
+.fa-shopping-cart {
+    color: rgb(225, 69, 69);
+}
+
+a {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    justify-content: center;
+    font: 16px Arial, sans-serif;
+}
+
+a:hover {
+    color: red;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font: 16px Arial, sans-serif;
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: black
+}
+
+header>nav {
+    border: solid 2px rgb(225, 69, 69);
+    background-color: black;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    padding: 4px;
+    flex-wrap: wrap;
+    color: rgb(225, 69, 69);
+}
+
+header ul>li {
+    display: inline;
+    vertical-align: middle;
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#myBody {
+    background-color: black;
+}
+
+.container {
+    padding: 10px 10px;
+    border: solid black 2px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: black;
+}
+
+.trTitle {
+    color: aliceblue;
+}
+
+.cart-total {
+    color: aliceblue;
+}
+
+th {
+    color: aliceblue;
+}
+
+td {
+    color: aliceblue;
+}
+
+tr {
+    color: aliceblue;
+}
+
+footer {
+    background-color: rgb(225, 69, 69);
+    padding: 5px 0 5px 0;
+    text-align: center;
+}
